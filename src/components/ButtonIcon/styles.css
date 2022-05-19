@@ -1,0 +1,40 @@
+.btn-container {
+  display: flex;
+  padding: 28px 63px 9px 63px;
+}
+
+.btn-container button {
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.btn-custom {
+  background-color: #00285f;
+  width: 174px;
+  height: 40px;
+  text-align: center;
+  
+}
+
+.btn-custom h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  .btn-icon-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .btn h6 {
+    font-size: 18px;
+  }
+}

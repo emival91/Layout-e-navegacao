@@ -1,0 +1,36 @@
+.search-card {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: row;
+  padding: 30px 15px;
+  margin: 20px 10px 20px 10px;
+  background: #ededed;
+  border-radius: 5px;
+  min-width: 300px;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .search-card {
+    padding: 50px 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-card {
+    padding: 50px 11px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-card {
+    padding: 50px 95px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .search-card {
+    padding: 50px 195px;
+  }
+}

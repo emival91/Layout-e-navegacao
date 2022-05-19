@@ -1,0 +1,47 @@
+.main-nav {
+    padding-left: 40px;
+    min-height: 70px;
+    position: relative;
+    z-index: 1;
+}
+.nav-logo-text, .nav-logo-text:hover {
+    color: #00285F;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 380px;
+    justify-content:flex-end;
+    justify-content: space-evenly;
+}
+
+.main-menu a {
+    color: #00285F;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    color: #00285F;
+    font-weight: bold;
+}
+
+.main-menu a.active {
+    color: #00285F;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .main-menu { 
+        margin: 0 5% 0 0;
+    }
+
+    .nav-logo-text {
+        margin: 0 0 0 7%;
+    }
+}

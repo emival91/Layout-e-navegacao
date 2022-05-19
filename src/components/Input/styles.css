@@ -1,0 +1,34 @@
+.input-container input {
+    width: 186px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+    color: rgba(167, 167, 167, 1);
+    padding: 0 15px;
+  }
+  
+  .button-container button {
+    width: 77px;
+  }
+  
+  @media (min-width: 576px) {
+    .input-container input {
+      width: 310px;
+    }
+    .button-container button {
+      width: 174px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .input-container input {
+      width: 500px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .input-container input {
+      width: 580px;
+    }
+  }
